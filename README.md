@@ -66,14 +66,11 @@ Suara bersifat opsional lewat SpeechSynthesis dan hanya menggunakan voice Indone
 
 Saat memilih produk, narasi menyebut satuan dan nama produk serta total kelompok lapaknya, misalnya “1 apel dimasukkan ke keranjang. Ada 5 buah di keranjang.” Mengeluarkan barang juga mendapat narasi jumlah terbaru. Jika pesanan belum sesuai, UI dan suara memakai penjelasan yang sama: pesanan yang diminta, produk salah beserta jumlahnya, lalu kekurangan atau kelebihan produk yang diminta. Tombol “Dengarkan penjelasan” mengulang pesan terakhir. Ketukan terbaru mengganti narasi sebelumnya agar jumlah lama tidak mengantre. Tes browser memeriksa teks yang dikirim ke API suara melalui mock; ini bukan pengujian audio audibel.
 
-## Cloudflare Pages — publikasi terakhir dua game
+## Cloudflare Pages
 
-Produksi terakhir: https://anakhebat-games.pages.dev/ (dua game, 21 September 2026). Susun Ceritaku sudah tersedia pada build lokal; pembaruan keempat game belum dipublikasikan.
-Deployment: https://7cfee78d.anakhebat-games.pages.dev/.
+Produksi: https://anakhebat-games.pages.dev/. Proyek Pages `anakhebat-games` terhubung ke repositori GitHub `angkasatech/anakhebat-games`.
 
-Proyek Pages terpisah bernama anakhebat-games, produksi branch main, Direct Upload hasil build dist. Proyek utama AnakHebat tidak diubah.
-
-Untuk pembaruan: jalankan npm ci, npm test, npm run build, npm run test:browser, lalu npm run deploy dengan autentikasi Wrangler yang aktif (wrangler login). Tidak ada secret, binding, fungsi server, database, atau variabel lingkungan aplikasi yang diperlukan. Gunakan Node.js 22.12+ atau 24+. Publikasi pertama memakai koneksi Cloudflare API dan token unggah berumur pendek karena login CLI kedaluwarsa; token tidak disimpan dalam proyek.
+Push ke `main` membangun produksi; branch lain mendapat preview. Kedua environment memakai Node.js 24, perintah `npm ci && npm test && npm run build`, dan output `dist`. Tidak ada secret atau variabel lingkungan aplikasi yang dibutuhkan. Detail setup dan cara pembaruan: [docs/CLOUDFLARE.md](docs/CLOUDFLARE.md).
 
 ## Tipografi
 
