@@ -1,7 +1,7 @@
 import { test,expect } from '@playwright/test';
 import { activities, words, letterGroups } from '../../src/games/sehari-kiki/data.js';
 const path='/member/games/sehari-kiki/';
-async function layout(page){await page.evaluate(()=>document.fonts.ready);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(await page.locator('img').evaluateAll(imgs=>imgs.every(i=>i.complete&&i.naturalWidth>0))).toBe(true);}
+async function layout(page){await page.evaluate(()=>document.fonts.ready);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await expect.poll(()=>page.locator('img').evaluateAll(imgs=>imgs.every(i=>i.complete&&i.naturalWidth>0))).toBe(true);}
 async function target(page){return page.locator('.day-prompt-picture>span').textContent();}
 async function playAll(page,count){for(let i=0;i<count;i++){await page.getByRole('button',{name:`Pilih ${await target(page)}`,exact:true}).click();await expect(page.locator('#day-feedback')).toContainText('Terima kasih');await page.getByRole('button',{name:i===count-1?'Selesai':'Lanjut',exact:false}).click();}await expect(page.getByRole('heading',{name:/Terima kasih/})).toBeVisible();}
 for(const activity of activities)test(`day ${activity.id}: learn words, retry, sentences, conversation and next activity`,async({page})=>{
