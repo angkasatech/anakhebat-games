@@ -1,0 +1,2 @@
+import { defineConfig } from 'vite';
+export default defineConfig({ base: './', build: { rollupOptions: { input: { main: 'index.html', games: 'member/games/index.html', pasarMini: 'member/games/pasar-mini/index.html', keretaPola: 'member/games/kereta-pola/index.html', susunCeritaku: 'member/games/susun-ceritaku/index.html', sehariKiki: 'member/games/sehari-kiki/index.html' } } } });

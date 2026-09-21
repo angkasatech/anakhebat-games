@@ -1,0 +1,24 @@
+import { chromium } from '@playwright/test';
+import { readdir, stat, writeFile } from 'node:fs/promises';
+import { gzipSync } from 'node:zlib';
+import { readFile } from 'node:fs/promises';
+const browser = await chromium.launch();
+const page = await browser.newPage();
+await page.goto(process.env.PREVIEW_URL || 'http://127.0.0.1:4174/');
+await page.waitForLoadState('networkidle');
+await page.evaluate(() => document.fonts.ready);
+const network = await page.evaluate(() => [...performance.getEntriesByType('navigation'), ...performance.getEntriesByType('resource')].filter(e => e.name.startsWith(location.origin)).map(e => ({ path: new URL(e.name).pathname, bodyBytes: e.encodedBodySize, transferBytes: e.transferSize })));
+const voices = await page.evaluate(() => globalThis.speechSynthesis?.getVoices().map(v => ({ name: v.name, lang: v.lang })) || []);
+const assets = [];
+for (const name of await readdir('src/assets')) assets.push({ name, bytes: (await stat(`src/assets/${name}`)).size });
+for (const name of await readdir('src/app/assets')) assets.push({ name: `hub/${name}`, bytes: (await stat(`src/app/assets/${name}`)).size });
+for (const name of await readdir('src/games/kereta-pola/assets')) assets.push({ name: `kereta-pola/${name}`, bytes: (await stat(`src/games/kereta-pola/assets/${name}`)).size });
+for (const name of await readdir('src/games/susun-ceritaku/assets')) assets.push({ name: `susun-ceritaku/${name}`, bytes: (await stat(`src/games/susun-ceritaku/assets/${name}`)).size });
+for (const name of await readdir('src/games/sehari-kiki/assets')) assets.push({ name: `sehari-kiki/${name}`, bytes: (await stat(`src/games/sehari-kiki/assets/${name}`)).size });
+const production = [];
+for (const name of await readdir('dist/assets')) { const b = await readFile(`dist/assets/${name}`); production.push({ name, bytes: b.length, gzipBytes: gzipSync(b).length }); }
+const fonts = production.filter(file => file.name.endsWith('.woff2'));
+const result = { initialFontBytes: network.filter(r => r.path.endsWith('.woff2')).reduce((sum,r) => sum + r.bodyBytes, 0), fonts, fontBytes: fonts.reduce((sum, file) => sum + file.bytes, 0), measuredAt: new Date().toISOString(), browser: 'Chromium, cold context', url: process.env.PREVIEW_URL || 'http://127.0.0.1:4174/', network, bodyBytes: network.reduce((n, r) => n + r.bodyBytes, 0), transferBytes: network.reduce((n, r) => n + r.transferBytes, 0), assets, production, indonesianVoices: voices.filter(v => /^id[-_]/i.test(v.lang)), note: 'Resource Timing measures actual same-origin response body and transfer at the recorded URL. Transfer includes browser-reported overhead. Tiny SVGs are bundled except favicon. Production gzip sizes are calculated separately, not observed transfer. WOFF2 fonts are self-hosted.' };
+await writeFile(process.env.MEASUREMENT_FILE || 'docs/measurements.json', JSON.stringify(result, null, 2) + '\n');
+console.log(JSON.stringify(result, null, 2));
+await browser.close();

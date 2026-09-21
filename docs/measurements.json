@@ -1,0 +1,501 @@
+{
+  "initialFontBytes": 43840,
+  "fonts": [
+    {
+      "name": "fredoka-one-latin-400-normal-CqP-Tvqc.woff2",
+      "bytes": 15596,
+      "gzipBytes": 15619
+    },
+    {
+      "name": "noto-naskh-arabic-arabic-400-normal-U_i0HMfG.woff2",
+      "bytes": 52668,
+      "gzipBytes": 52418
+    },
+    {
+      "name": "quicksand-latin-wght-normal-Buj9m_3d.woff2",
+      "bytes": 28244,
+      "gzipBytes": 28272
+    }
+  ],
+  "fontBytes": 96508,
+  "measuredAt": "2026-09-21T08:34:24.828Z",
+  "browser": "Chromium, cold context",
+  "url": "http://127.0.0.1:4174/",
+  "network": [
+    {
+      "path": "/",
+      "bodyBytes": 618,
+      "transferBytes": 918
+    },
+    {
+      "path": "/assets/main-BtgBA0PV.js",
+      "bodyBytes": 2430,
+      "transferBytes": 2730
+    },
+    {
+      "path": "/assets/main-BcBYBLXA.css",
+      "bodyBytes": 645,
+      "transferBytes": 945
+    },
+    {
+      "path": "/assets/hub-BH3bUMx4.js",
+      "bodyBytes": 4577,
+      "transferBytes": 4877
+    },
+    {
+      "path": "/assets/speech-D6xEhaQC.js",
+      "bodyBytes": 622,
+      "transferBytes": 922
+    },
+    {
+      "path": "/assets/bunny--olwi4I0.js",
+      "bodyBytes": 487,
+      "transferBytes": 787
+    },
+    {
+      "path": "/assets/orange-CEPMGN66.js",
+      "bodyBytes": 708,
+      "transferBytes": 1008
+    },
+    {
+      "path": "/assets/banana-BmTOYfZ7.js",
+      "bodyBytes": 550,
+      "transferBytes": 850
+    },
+    {
+      "path": "/assets/hub-ClDpodUY.css",
+      "bodyBytes": 3549,
+      "transferBytes": 3849
+    },
+    {
+      "path": "/assets/apple-D4i3fiUb.svg",
+      "bodyBytes": 422,
+      "transferBytes": 722
+    },
+    {
+      "path": "/assets/quicksand-latin-wght-normal-Buj9m_3d.woff2",
+      "bodyBytes": 28244,
+      "transferBytes": 28544
+    },
+    {
+      "path": "/assets/fredoka-one-latin-400-normal-CqP-Tvqc.woff2",
+      "bodyBytes": 15596,
+      "transferBytes": 15896
+    }
+  ],
+  "bodyBytes": 58448,
+  "transferBytes": 62048,
+  "assets": [
+    {
+      "name": "apple.svg",
+      "bytes": 422
+    },
+    {
+      "name": "avocado.svg",
+      "bytes": 452
+    },
+    {
+      "name": "banana.svg",
+      "bytes": 395
+    },
+    {
+      "name": "broccoli.svg",
+      "bytes": 501
+    },
+    {
+      "name": "bunny.svg",
+      "bytes": 841
+    },
+    {
+      "name": "carrot.svg",
+      "bytes": 436
+    },
+    {
+      "name": "chicken.svg",
+      "bytes": 475
+    },
+    {
+      "name": "corn.svg",
+      "bytes": 453
+    },
+    {
+      "name": "cucumber.svg",
+      "bytes": 455
+    },
+    {
+      "name": "egg.svg",
+      "bytes": 422
+    },
+    {
+      "name": "eggplant.svg",
+      "bytes": 413
+    },
+    {
+      "name": "fish.svg",
+      "bytes": 413
+    },
+    {
+      "name": "mango.svg",
+      "bytes": 464
+    },
+    {
+      "name": "orange.svg",
+      "bytes": 464
+    },
+    {
+      "name": "pear.svg",
+      "bytes": 420
+    },
+    {
+      "name": "shrimp.svg",
+      "bytes": 549
+    },
+    {
+      "name": "tempeh.svg",
+      "bytes": 694
+    },
+    {
+      "name": "tofu.svg",
+      "bytes": 489
+    },
+    {
+      "name": "tomato.svg",
+      "bytes": 403
+    },
+    {
+      "name": "hub/day.svg",
+      "bytes": 922
+    },
+    {
+      "name": "hub/story.svg",
+      "bytes": 2149
+    },
+    {
+      "name": "hub/train.svg",
+      "bytes": 2157
+    },
+    {
+      "name": "kereta-pola/circle.svg",
+      "bytes": 248
+    },
+    {
+      "name": "kereta-pola/locomotive.svg",
+      "bytes": 865
+    },
+    {
+      "name": "kereta-pola/square.svg",
+      "bytes": 287
+    },
+    {
+      "name": "kereta-pola/star.svg",
+      "bytes": 307
+    },
+    {
+      "name": "kereta-pola/triangle.svg",
+      "bytes": 276
+    },
+    {
+      "name": "susun-ceritaku/eat.svg",
+      "bytes": 912
+    },
+    {
+      "name": "susun-ceritaku/flower.svg",
+      "bytes": 1067
+    },
+    {
+      "name": "susun-ceritaku/peel.svg",
+      "bytes": 581
+    },
+    {
+      "name": "susun-ceritaku/rinse.svg",
+      "bytes": 929
+    },
+    {
+      "name": "susun-ceritaku/seed.svg",
+      "bytes": 696
+    },
+    {
+      "name": "susun-ceritaku/soap.svg",
+      "bytes": 1190
+    },
+    {
+      "name": "susun-ceritaku/tidy.svg",
+      "bytes": 712
+    },
+    {
+      "name": "susun-ceritaku/water.svg",
+      "bytes": 918
+    },
+    {
+      "name": "susun-ceritaku/wet.svg",
+      "bytes": 819
+    },
+    {
+      "name": "sehari-kiki/bag.svg",
+      "bytes": 529
+    },
+    {
+      "name": "sehari-kiki/ball.svg",
+      "bytes": 393
+    },
+    {
+      "name": "sehari-kiki/basket.svg",
+      "bytes": 474
+    },
+    {
+      "name": "sehari-kiki/bed.svg",
+      "bytes": 482
+    },
+    {
+      "name": "sehari-kiki/blanket.svg",
+      "bytes": 467
+    },
+    {
+      "name": "sehari-kiki/blocks.svg",
+      "bytes": 530
+    },
+    {
+      "name": "sehari-kiki/book.svg",
+      "bytes": 429
+    },
+    {
+      "name": "sehari-kiki/box.svg",
+      "bytes": 396
+    },
+    {
+      "name": "sehari-kiki/cap.svg",
+      "bytes": 390
+    },
+    {
+      "name": "sehari-kiki/car.svg",
+      "bytes": 512
+    },
+    {
+      "name": "sehari-kiki/chair.svg",
+      "bytes": 431
+    },
+    {
+      "name": "sehari-kiki/doll.svg",
+      "bytes": 711
+    },
+    {
+      "name": "sehari-kiki/hat.svg",
+      "bytes": 354
+    },
+    {
+      "name": "sehari-kiki/kite.svg",
+      "bytes": 447
+    },
+    {
+      "name": "sehari-kiki/lamp.svg",
+      "bytes": 474
+    },
+    {
+      "name": "sehari-kiki/mat.svg",
+      "bytes": 506
+    },
+    {
+      "name": "sehari-kiki/milk.svg",
+      "bytes": 459
+    },
+    {
+      "name": "sehari-kiki/moon.svg",
+      "bytes": 389
+    },
+    {
+      "name": "sehari-kiki/mosque.svg",
+      "bytes": 468
+    },
+    {
+      "name": "sehari-kiki/pencil.svg",
+      "bytes": 528
+    },
+    {
+      "name": "sehari-kiki/pillow.svg",
+      "bytes": 390
+    },
+    {
+      "name": "sehari-kiki/rice.svg",
+      "bytes": 501
+    },
+    {
+      "name": "sehari-kiki/school.svg",
+      "bytes": 469
+    },
+    {
+      "name": "sehari-kiki/shelf.svg",
+      "bytes": 459
+    },
+    {
+      "name": "sehari-kiki/shirt.svg",
+      "bytes": 396
+    },
+    {
+      "name": "sehari-kiki/shoes.svg",
+      "bytes": 555
+    },
+    {
+      "name": "sehari-kiki/soap.svg",
+      "bytes": 473
+    },
+    {
+      "name": "sehari-kiki/socks.svg",
+      "bytes": 456
+    },
+    {
+      "name": "sehari-kiki/sun.svg",
+      "bytes": 404
+    },
+    {
+      "name": "sehari-kiki/table.svg",
+      "bytes": 407
+    },
+    {
+      "name": "sehari-kiki/teacher.svg",
+      "bytes": 609
+    },
+    {
+      "name": "sehari-kiki/toothbrush.svg",
+      "bytes": 446
+    },
+    {
+      "name": "sehari-kiki/toothpaste.svg",
+      "bytes": 550
+    },
+    {
+      "name": "sehari-kiki/towel.svg",
+      "bytes": 435
+    },
+    {
+      "name": "sehari-kiki/trousers.svg",
+      "bytes": 374
+    },
+    {
+      "name": "sehari-kiki/water.svg",
+      "bytes": 366
+    },
+    {
+      "name": "sehari-kiki/window.svg",
+      "bytes": 474
+    }
+  ],
+  "production": [
+    {
+      "name": "apple-D4i3fiUb.svg",
+      "bytes": 422,
+      "gzipBytes": 258
+    },
+    {
+      "name": "banana-BmTOYfZ7.js",
+      "bytes": 550,
+      "gzipBytes": 304
+    },
+    {
+      "name": "bunny--olwi4I0.js",
+      "bytes": 1116,
+      "gzipBytes": 487
+    },
+    {
+      "name": "flower-M8nTPpSj.svg",
+      "bytes": 1067,
+      "gzipBytes": 495
+    },
+    {
+      "name": "fredoka-one-latin-400-normal-CqP-Tvqc.woff2",
+      "bytes": 15596,
+      "gzipBytes": 15619
+    },
+    {
+      "name": "hub-BH3bUMx4.js",
+      "bytes": 13224,
+      "gzipBytes": 4577
+    },
+    {
+      "name": "hub-ClDpodUY.css",
+      "bytes": 13575,
+      "gzipBytes": 3549
+    },
+    {
+      "name": "index-BbdLjG4-.js",
+      "bytes": 21244,
+      "gzipBytes": 6572
+    },
+    {
+      "name": "index-Bhe-ZKb9.css",
+      "bytes": 16932,
+      "gzipBytes": 4023
+    },
+    {
+      "name": "index-C87y1BhJ.css",
+      "bytes": 11774,
+      "gzipBytes": 2969
+    },
+    {
+      "name": "index-CBf4m3qw.js",
+      "bytes": 14506,
+      "gzipBytes": 5475
+    },
+    {
+      "name": "index-Ck3IaY2Q.css",
+      "bytes": 17623,
+      "gzipBytes": 4348
+    },
+    {
+      "name": "index-DHcRiBGz.js",
+      "bytes": 26724,
+      "gzipBytes": 8711
+    },
+    {
+      "name": "index-DSrRrQMO.js",
+      "bytes": 44258,
+      "gzipBytes": 12343
+    },
+    {
+      "name": "index-zrwkXlNJ.css",
+      "bytes": 18590,
+      "gzipBytes": 4876
+    },
+    {
+      "name": "locomotive-BQDx8Xix.svg",
+      "bytes": 865,
+      "gzipBytes": 380
+    },
+    {
+      "name": "main-BcBYBLXA.css",
+      "bytes": 1175,
+      "gzipBytes": 645
+    },
+    {
+      "name": "main-BtgBA0PV.js",
+      "bytes": 5037,
+      "gzipBytes": 2430
+    },
+    {
+      "name": "noto-naskh-arabic-arabic-400-normal-U_i0HMfG.woff2",
+      "bytes": 52668,
+      "gzipBytes": 52418
+    },
+    {
+      "name": "orange-CEPMGN66.js",
+      "bytes": 708,
+      "gzipBytes": 377
+    },
+    {
+      "name": "quicksand-latin-wght-normal-Buj9m_3d.woff2",
+      "bytes": 28244,
+      "gzipBytes": 28272
+    },
+    {
+      "name": "speech-D6xEhaQC.js",
+      "bytes": 1080,
+      "gzipBytes": 622
+    },
+    {
+      "name": "sun-dpVTHAdC.svg",
+      "bytes": 404,
+      "gzipBytes": 280
+    }
+  ],
+  "indonesianVoices": [],
+  "note": "Resource Timing measures actual same-origin response body and transfer at the recorded URL. Transfer includes browser-reported overhead. Tiny SVGs are bundled except favicon. Production gzip sizes are calculated separately, not observed transfer. WOFF2 fonts are self-hosted."
+}

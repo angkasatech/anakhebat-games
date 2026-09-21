@@ -1,0 +1,303 @@
+{
+  "fonts": [
+    {
+      "name": "fredoka-one-latin-400-normal-CqP-Tvqc.woff2",
+      "bytes": 15596,
+      "gzipBytes": 15619
+    },
+    {
+      "name": "quicksand-latin-wght-normal-Buj9m_3d.woff2",
+      "bytes": 28244,
+      "gzipBytes": 28272
+    }
+  ],
+  "fontBytes": 43840,
+  "measuredAt": "2026-09-21T05:47:34.919Z",
+  "browser": "Chromium, cold context",
+  "url": "http://127.0.0.1:4174/member/games/susun-ceritaku/",
+  "network": [
+    {
+      "path": "/member/games/susun-ceritaku/",
+      "bodyBytes": 665,
+      "transferBytes": 965
+    },
+    {
+      "path": "/assets/main-BZ6Dvkcb.js",
+      "bodyBytes": 2224,
+      "transferBytes": 2524
+    },
+    {
+      "path": "/assets/main-BcBYBLXA.css",
+      "bodyBytes": 645,
+      "transferBytes": 945
+    },
+    {
+      "path": "/assets/index-BNI8zkr6.js",
+      "bodyBytes": 6572,
+      "transferBytes": 6872
+    },
+    {
+      "path": "/assets/speech-neCOh6hY.js",
+      "bodyBytes": 908,
+      "transferBytes": 1208
+    },
+    {
+      "path": "/assets/index-C87y1BhJ.css",
+      "bodyBytes": 2969,
+      "transferBytes": 3269
+    },
+    {
+      "path": "/assets/flower-M8nTPpSj.svg",
+      "bodyBytes": 495,
+      "transferBytes": 795
+    },
+    {
+      "path": "/assets/quicksand-latin-wght-normal-Buj9m_3d.woff2",
+      "bodyBytes": 28244,
+      "transferBytes": 28544
+    },
+    {
+      "path": "/assets/fredoka-one-latin-400-normal-CqP-Tvqc.woff2",
+      "bodyBytes": 15596,
+      "transferBytes": 15896
+    }
+  ],
+  "bodyBytes": 58318,
+  "transferBytes": 61018,
+  "assets": [
+    {
+      "name": "apple.svg",
+      "bytes": 422
+    },
+    {
+      "name": "avocado.svg",
+      "bytes": 452
+    },
+    {
+      "name": "banana.svg",
+      "bytes": 395
+    },
+    {
+      "name": "broccoli.svg",
+      "bytes": 501
+    },
+    {
+      "name": "bunny.svg",
+      "bytes": 841
+    },
+    {
+      "name": "carrot.svg",
+      "bytes": 436
+    },
+    {
+      "name": "chicken.svg",
+      "bytes": 475
+    },
+    {
+      "name": "corn.svg",
+      "bytes": 453
+    },
+    {
+      "name": "cucumber.svg",
+      "bytes": 455
+    },
+    {
+      "name": "egg.svg",
+      "bytes": 422
+    },
+    {
+      "name": "eggplant.svg",
+      "bytes": 413
+    },
+    {
+      "name": "fish.svg",
+      "bytes": 413
+    },
+    {
+      "name": "mango.svg",
+      "bytes": 464
+    },
+    {
+      "name": "orange.svg",
+      "bytes": 464
+    },
+    {
+      "name": "pear.svg",
+      "bytes": 420
+    },
+    {
+      "name": "shrimp.svg",
+      "bytes": 549
+    },
+    {
+      "name": "tempeh.svg",
+      "bytes": 694
+    },
+    {
+      "name": "tofu.svg",
+      "bytes": 489
+    },
+    {
+      "name": "tomato.svg",
+      "bytes": 403
+    },
+    {
+      "name": "hub/story.svg",
+      "bytes": 2149
+    },
+    {
+      "name": "hub/train.svg",
+      "bytes": 2157
+    },
+    {
+      "name": "kereta-pola/circle.svg",
+      "bytes": 248
+    },
+    {
+      "name": "kereta-pola/locomotive.svg",
+      "bytes": 865
+    },
+    {
+      "name": "kereta-pola/square.svg",
+      "bytes": 287
+    },
+    {
+      "name": "kereta-pola/star.svg",
+      "bytes": 307
+    },
+    {
+      "name": "kereta-pola/triangle.svg",
+      "bytes": 276
+    },
+    {
+      "name": "susun-ceritaku/eat.svg",
+      "bytes": 912
+    },
+    {
+      "name": "susun-ceritaku/flower.svg",
+      "bytes": 1067
+    },
+    {
+      "name": "susun-ceritaku/peel.svg",
+      "bytes": 581
+    },
+    {
+      "name": "susun-ceritaku/rinse.svg",
+      "bytes": 929
+    },
+    {
+      "name": "susun-ceritaku/seed.svg",
+      "bytes": 696
+    },
+    {
+      "name": "susun-ceritaku/soap.svg",
+      "bytes": 1190
+    },
+    {
+      "name": "susun-ceritaku/tidy.svg",
+      "bytes": 712
+    },
+    {
+      "name": "susun-ceritaku/water.svg",
+      "bytes": 918
+    },
+    {
+      "name": "susun-ceritaku/wet.svg",
+      "bytes": 819
+    }
+  ],
+  "production": [
+    {
+      "name": "apple-D4i3fiUb.svg",
+      "bytes": 422,
+      "gzipBytes": 258
+    },
+    {
+      "name": "bunny--olwi4I0.js",
+      "bytes": 1116,
+      "gzipBytes": 487
+    },
+    {
+      "name": "flower-M8nTPpSj.svg",
+      "bytes": 1067,
+      "gzipBytes": 495
+    },
+    {
+      "name": "fredoka-one-latin-400-normal-CqP-Tvqc.woff2",
+      "bytes": 15596,
+      "gzipBytes": 15619
+    },
+    {
+      "name": "hub-CsXCx3Z4.css",
+      "bytes": 13290,
+      "gzipBytes": 3506
+    },
+    {
+      "name": "hub-lMr2zdm0.js",
+      "bytes": 11927,
+      "gzipBytes": 4169
+    },
+    {
+      "name": "index-BNI8zkr6.js",
+      "bytes": 21244,
+      "gzipBytes": 6572
+    },
+    {
+      "name": "index-C87y1BhJ.css",
+      "bytes": 11774,
+      "gzipBytes": 2969
+    },
+    {
+      "name": "index-Ck3IaY2Q.css",
+      "bytes": 17623,
+      "gzipBytes": 4348
+    },
+    {
+      "name": "index-DXTx0b40.js",
+      "bytes": 14472,
+      "gzipBytes": 5461
+    },
+    {
+      "name": "index-DY-_D__E.js",
+      "bytes": 26724,
+      "gzipBytes": 8711
+    },
+    {
+      "name": "index-zrwkXlNJ.css",
+      "bytes": 18590,
+      "gzipBytes": 4876
+    },
+    {
+      "name": "locomotive-BQDx8Xix.svg",
+      "bytes": 865,
+      "gzipBytes": 380
+    },
+    {
+      "name": "main-BcBYBLXA.css",
+      "bytes": 1175,
+      "gzipBytes": 645
+    },
+    {
+      "name": "main-BZ6Dvkcb.js",
+      "bytes": 4489,
+      "gzipBytes": 2224
+    },
+    {
+      "name": "orange-CzcfzXFw.js",
+      "bytes": 1243,
+      "gzipBytes": 506
+    },
+    {
+      "name": "quicksand-latin-wght-normal-Buj9m_3d.woff2",
+      "bytes": 28244,
+      "gzipBytes": 28272
+    },
+    {
+      "name": "speech-neCOh6hY.js",
+      "bytes": 908,
+      "gzipBytes": 541
+    }
+  ],
+  "indonesianVoices": [],
+  "note": "Resource Timing measures actual same-origin response body and transfer at the recorded URL. Transfer includes browser-reported overhead. Tiny SVGs are bundled except favicon. Production gzip sizes are calculated separately, not observed transfer. WOFF2 fonts are self-hosted."
+}

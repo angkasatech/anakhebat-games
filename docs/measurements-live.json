@@ -1,0 +1,262 @@
+{
+  "fonts": [
+    {
+      "name": "fredoka-one-latin-400-normal-CqP-Tvqc.woff2",
+      "bytes": 15596,
+      "gzipBytes": 15619
+    },
+    {
+      "name": "quicksand-latin-wght-normal-Buj9m_3d.woff2",
+      "bytes": 28244,
+      "gzipBytes": 28272
+    }
+  ],
+  "fontBytes": 43840,
+  "measuredAt": "2026-09-21T05:07:00.116Z",
+  "browser": "Chromium, cold context",
+  "url": "https://anakhebat-games.pages.dev/",
+  "network": [
+    {
+      "path": "/",
+      "bodyBytes": 360,
+      "transferBytes": 660
+    },
+    {
+      "path": "/assets/main-Cqz7O_4o.js",
+      "bodyBytes": 2155,
+      "transferBytes": 2455
+    },
+    {
+      "path": "/assets/main-BcBYBLXA.css",
+      "bodyBytes": 574,
+      "transferBytes": 874
+    },
+    {
+      "path": "/assets/hub-Dl66WoVr.js",
+      "bodyBytes": 4241,
+      "transferBytes": 4541
+    },
+    {
+      "path": "/assets/speech-neCOh6hY.js",
+      "bodyBytes": 517,
+      "transferBytes": 817
+    },
+    {
+      "path": "/assets/bunny--olwi4I0.js",
+      "bodyBytes": 488,
+      "transferBytes": 788
+    },
+    {
+      "path": "/assets/orange-CzcfzXFw.js",
+      "bodyBytes": 508,
+      "transferBytes": 808
+    },
+    {
+      "path": "/assets/hub-CsXCx3Z4.css",
+      "bodyBytes": 3678,
+      "transferBytes": 3978
+    },
+    {
+      "path": "/assets/apple-D4i3fiUb.svg",
+      "bodyBytes": 238,
+      "transferBytes": 538
+    },
+    {
+      "path": "/assets/quicksand-latin-wght-normal-Buj9m_3d.woff2",
+      "bodyBytes": 28244,
+      "transferBytes": 28544
+    },
+    {
+      "path": "/assets/fredoka-one-latin-400-normal-CqP-Tvqc.woff2",
+      "bodyBytes": 15596,
+      "transferBytes": 15896
+    }
+  ],
+  "bodyBytes": 56599,
+  "transferBytes": 59899,
+  "assets": [
+    {
+      "name": "apple.svg",
+      "bytes": 422
+    },
+    {
+      "name": "avocado.svg",
+      "bytes": 452
+    },
+    {
+      "name": "banana.svg",
+      "bytes": 395
+    },
+    {
+      "name": "broccoli.svg",
+      "bytes": 501
+    },
+    {
+      "name": "bunny.svg",
+      "bytes": 841
+    },
+    {
+      "name": "carrot.svg",
+      "bytes": 436
+    },
+    {
+      "name": "chicken.svg",
+      "bytes": 475
+    },
+    {
+      "name": "corn.svg",
+      "bytes": 453
+    },
+    {
+      "name": "cucumber.svg",
+      "bytes": 455
+    },
+    {
+      "name": "egg.svg",
+      "bytes": 422
+    },
+    {
+      "name": "eggplant.svg",
+      "bytes": 413
+    },
+    {
+      "name": "fish.svg",
+      "bytes": 413
+    },
+    {
+      "name": "mango.svg",
+      "bytes": 464
+    },
+    {
+      "name": "orange.svg",
+      "bytes": 464
+    },
+    {
+      "name": "pear.svg",
+      "bytes": 420
+    },
+    {
+      "name": "shrimp.svg",
+      "bytes": 549
+    },
+    {
+      "name": "tempeh.svg",
+      "bytes": 694
+    },
+    {
+      "name": "tofu.svg",
+      "bytes": 489
+    },
+    {
+      "name": "tomato.svg",
+      "bytes": 403
+    },
+    {
+      "name": "hub/story.svg",
+      "bytes": 2149
+    },
+    {
+      "name": "hub/train.svg",
+      "bytes": 2157
+    },
+    {
+      "name": "kereta-pola/circle.svg",
+      "bytes": 248
+    },
+    {
+      "name": "kereta-pola/locomotive.svg",
+      "bytes": 865
+    },
+    {
+      "name": "kereta-pola/square.svg",
+      "bytes": 287
+    },
+    {
+      "name": "kereta-pola/star.svg",
+      "bytes": 307
+    },
+    {
+      "name": "kereta-pola/triangle.svg",
+      "bytes": 276
+    }
+  ],
+  "production": [
+    {
+      "name": "apple-D4i3fiUb.svg",
+      "bytes": 422,
+      "gzipBytes": 258
+    },
+    {
+      "name": "bunny--olwi4I0.js",
+      "bytes": 1116,
+      "gzipBytes": 487
+    },
+    {
+      "name": "fredoka-one-latin-400-normal-CqP-Tvqc.woff2",
+      "bytes": 15596,
+      "gzipBytes": 15619
+    },
+    {
+      "name": "hub-CsXCx3Z4.css",
+      "bytes": 13290,
+      "gzipBytes": 3506
+    },
+    {
+      "name": "hub-Dl66WoVr.js",
+      "bytes": 11927,
+      "gzipBytes": 4164
+    },
+    {
+      "name": "index-Ck3IaY2Q.css",
+      "bytes": 17623,
+      "gzipBytes": 4348
+    },
+    {
+      "name": "index-DXTx0b40.js",
+      "bytes": 14472,
+      "gzipBytes": 5461
+    },
+    {
+      "name": "index-DY-_D__E.js",
+      "bytes": 26724,
+      "gzipBytes": 8711
+    },
+    {
+      "name": "index-zrwkXlNJ.css",
+      "bytes": 18590,
+      "gzipBytes": 4876
+    },
+    {
+      "name": "locomotive-BQDx8Xix.svg",
+      "bytes": 865,
+      "gzipBytes": 380
+    },
+    {
+      "name": "main-BcBYBLXA.css",
+      "bytes": 1175,
+      "gzipBytes": 645
+    },
+    {
+      "name": "main-Cqz7O_4o.js",
+      "bytes": 4315,
+      "gzipBytes": 2189
+    },
+    {
+      "name": "orange-CzcfzXFw.js",
+      "bytes": 1243,
+      "gzipBytes": 506
+    },
+    {
+      "name": "quicksand-latin-wght-normal-Buj9m_3d.woff2",
+      "bytes": 28244,
+      "gzipBytes": 28272
+    },
+    {
+      "name": "speech-neCOh6hY.js",
+      "bytes": 908,
+      "gzipBytes": 541
+    }
+  ],
+  "indonesianVoices": [],
+  "note": "Resource Timing measures actual same-origin response body and transfer at the recorded URL. Transfer includes browser-reported overhead. Tiny SVGs are bundled except favicon. Production gzip sizes are calculated separately, not observed transfer. WOFF2 fonts are self-hosted."
+}
