@@ -1,5 +1,7 @@
 # Cloudflare Pages
 
+**Rilis origin untuk cutover member:** build terbaru memerlukan secret server GAMES_ORIGIN_SECRET dan menolak akses langsung. Rilis origin telah diotorisasi; akses member menunggu kesiapan web utama. Bagian setup statis di bawah mendokumentasikan produksi lama. Ikuti [MEMBER-INTEGRATION.md](MEMBER-INTEGRATION.md) untuk rilis berikutnya.
+
 Proyek: `anakhebat-games`. Repositori: `angkasatech/anakhebat-games`.
 Alamat produksi: https://anakhebat-games.pages.dev/.
 

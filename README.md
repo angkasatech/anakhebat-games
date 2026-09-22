@@ -66,6 +66,10 @@ Suara bersifat opsional lewat SpeechSynthesis dan hanya menggunakan voice Indone
 
 Saat memilih produk, narasi menyebut satuan dan nama produk serta total kelompok lapaknya, misalnya “1 apel dimasukkan ke keranjang. Ada 5 buah di keranjang.” Mengeluarkan barang juga mendapat narasi jumlah terbaru. Jika pesanan belum sesuai, UI dan suara memakai penjelasan yang sama: pesanan yang diminta, produk salah beserta jumlahnya, lalu kekurangan atau kelebihan produk yang diminta. Tombol “Dengarkan penjelasan” mengulang pesan terakhir. Ketukan terbaru mengganti narasi sebelumnya agar jumlah lama tidak mengantre. Tes browser memeriksa teks yang dikirim ke API suara melalui mock; ini bukan pengujian audio audibel.
 
+## Integrasi member — rilis origin
+
+Build lokal kini menyertakan proteksi origin server dan aset di /member/games/assets/. Lihat [kontrak dan langkah cutover](docs/MEMBER-INTEGRATION.md). Rilis origin diotorisasi dalam cutover terkoordinasi; games terkunci sampai web utama siap. Deployment historis masih harus ditutup oleh task utama. Vite dev/preview hanya untuk pengembangan lokal dan tidak menjalankan proteksi Worker.
+
 ## Cloudflare Pages
 
 Produksi: https://anakhebat-games.pages.dev/. Proyek Pages `anakhebat-games` terhubung ke repositori GitHub `angkasatech/anakhebat-games`.
@@ -76,7 +80,7 @@ Push ke `main` membangun produksi; branch lain mendapat preview. Kedua environme
 
 Quicksand 600 untuk isi, instruksi dan dialog; bobot 700 untuk penekanan/tombol. Fredoka One 400 untuk judul dan elemen display. Fredoka One sudah tebal pada bobot 400; tidak perlu bold sintetis. Keduanya dimuat sebagai WOFF2 Latin lokal melalui Vite, tanpa permintaan Google Fonts/CDN eksternal. Definisi bersama: src/shared/styles/base.css; modul game memakai variabel font yang sama.
 
-File font: Quicksand 28.240 byte, Fredoka One 15.600 byte, total 43.840 byte. Lisensi OFL disertakan di public/licenses/ dan ikut build. Paket Fontsource dipatok dalam lockfile. Referensi: https://fontsource.org/fonts/quicksand dan https://fontsource.org/fonts/fredoka-one.
+File font: Quicksand 28.240 byte, Fredoka One 15.600 byte, total 43.840 byte. Lisensi OFL disertakan di public/member/games/licenses/ dan ikut build. Paket Fontsource dipatok dalam lockfile. Referensi: https://fontsource.org/fonts/quicksand dan https://fontsource.org/fonts/fredoka-one.
 
 Saat integrasi kelak, pindahkan kedua entry dan aset sesuai build/hosting induk; jangan menganggap prefix `/member/` memberi autentikasi. Adapter penyimpanan dapat diganti dengan API progres AnakHebat tanpa mengubah aturan permainan.
 
@@ -100,4 +104,4 @@ Les/Iqra menyediakan panel 28 huruf dasar terpisah dalam tujuh kelompok empat hu
 
 Adapter createSpeech menerima bahasa opsional; default Indonesia untuk game lama, Inggris en-GB (fallback voice en lain) untuk Kiki. Tidak memakai suara Indonesia sebagai pengganti Inggris. Suara perangkat tetap opsional dan keluaran audibel belum diuji; pemilihan bahasa, narasi dan pembatalan diuji melalui mock. Tidak merekam suara anak.
 
-Font Noto Naskh Arabic WOFF2 lokal 52.668 byte baru dimuat saat panel huruf dibuka; lisensi OFL di public/licenses. 37 SVG baru berjumlah 17.133 byte, ditambah aset pisang/telur/kelinci yang digunakan ulang. Pengukuran awal game: docs/measurements-day.json. Brief dan batas konten: docs/SEHARI-KIKI.md.
+Font Noto Naskh Arabic WOFF2 lokal 52.668 byte baru dimuat saat panel huruf dibuka; lisensi OFL di public/member/games/licenses. 37 SVG baru berjumlah 17.133 byte, ditambah aset pisang/telur/kelinci yang digunakan ulang. Pengukuran awal game: docs/measurements-day.json. Brief dan batas konten: docs/SEHARI-KIKI.md.
