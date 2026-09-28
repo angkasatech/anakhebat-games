@@ -1,0 +1,6 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {words,levels} from '../src/games/detektif-suara/data.js';
+import {createState,choose,next} from '../src/games/detektif-suara/engine.js';
+test('detective: 60 concrete words in ten phoneme groups, unique labels',()=>{assert.equal(words.length,60);assert.equal(new Set(words.map(w=>w.id)).size,60);for(const w of words){assert.ok(w.picture);assert.ok(w.id.startsWith(w.sound));assert.ok(!w.id.startsWith('ny'));}});
+for(const level of levels)test(`detective ${level.id}: five solvable missions, retry, duplicates, completion`,()=>{for(let run=0;run<30;run++){const s=createState(level.id);assert.equal(new Set(s.missions.map(m=>m.kind)).size,5);for(let i=0;i<5;i++){const m=s.missions[i];assert.equal(new Set(m.choices.map(c=>c.id)).size,m.choices.length);assert.equal(next(s),false);const wrong=m.choices.find(c=>!m.answers.includes(c.id));assert.equal(choose(s,wrong.id),'retry');assert.equal(s.index,i);assert.equal(choose(s,wrong.id),'retry');assert.equal(s.attempts,2);for(const id of m.answers){assert.ok(m.choices.some(c=>c.id===id));choose(s,id);assert.equal(choose(s,id),'ignored');}assert.equal(s.completed,i+1);assert.ok(next(s));}assert.equal(s.index,5);assert.deepEqual(s.completedIds,[0,1,2,3,4]);}});

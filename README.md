@@ -105,3 +105,10 @@ Les/Iqra menyediakan panel 28 huruf dasar terpisah dalam tujuh kelompok empat hu
 Adapter createSpeech menerima bahasa opsional; default Indonesia untuk game lama, Inggris en-GB (fallback voice en lain) untuk Kiki. Tidak memakai suara Indonesia sebagai pengganti Inggris. Suara perangkat tetap opsional dan keluaran audibel belum diuji; pemilihan bahasa, narasi dan pembatalan diuji melalui mock. Tidak merekam suara anak.
 
 Font Noto Naskh Arabic WOFF2 lokal 52.668 byte baru dimuat saat panel huruf dibuka; lisensi OFL di public/member/games/licenses. 37 SVG baru berjumlah 17.133 byte, ditambah aset pisang/telur/kelinci yang digunakan ulang. Pengukuran awal game: docs/measurements-day.json. Brief dan batas konten: docs/SEHARI-KIKI.md.
+
+## Detektif Suara — game kelima
+
+Rute lokal `/member/games/detektif-suara/`. Lima misi, tiga tingkat, 60 kata, petunjuk setelah percobaan, mode gambar dan peta penutup. Belum deploy. Panduan dan batas audio: [DETEKTIF-SUARA.md](docs/DETEKTIF-SUARA.md); daftar rekaman yang perlu dibuat: [DETEKTIF-SUARA-AUDIO.md](docs/DETEKTIF-SUARA-AUDIO.md).
+## Game kelima: Petualangan Suku Kata
+
+Rute lokal `/member/games/petualangan-suku-kata/`. Lima pulau untuk mendengar, memisahkan, menggabungkan, dan menyusun suku kata. Tiga mode kesulitan, pustaka minimal 80 kata, bantuan bertahap, audio ulang, dan layar penutup. Belum deploy; detail: [docs/PETUALANGAN-SUKU-KATA.md](docs/PETUALANGAN-SUKU-KATA.md).

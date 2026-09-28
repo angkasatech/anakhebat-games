@@ -6,7 +6,7 @@ for (const width of [320, 390, 1280]) {
     const errors = []; page.on('pageerror', error => errors.push(error.message));
     await page.goto('/');
     await expect(page.getByRole('heading', { name: /Hari ini/ })).toBeVisible();
-    await expect(page.locator('.hub-game-card')).toHaveCount(4);
+    await expect(page.locator('.hub-game-card')).toHaveCount(5);
     await expect(page.getByRole('link', { name: 'Main Pasar Mini' })).toHaveCount(1);
     await expect(page.getByRole('link', { name: 'Main Susun Ceritaku' })).toHaveCount(1);
     await expect(page.getByRole('link', { name: 'Main Kereta Pola' })).toHaveCount(1);
